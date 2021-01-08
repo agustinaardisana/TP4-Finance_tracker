@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AhorrADAs</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar is-primary p-4">
+            <div class="navbar-brand">
+                <a>
+                    <h1 class="title is-1 has-text-white">
+                        <i class="fas fa-wallet mr-2"></i>
+                        AhorrADAs
+                    </h1>
+                </a>
+
+            </div>
+
+            <div class="navbar-menu">
+                <div class="navbar-end">
+                    <a class="navbar-item has-text-white">
+                        <i class="fas fa-chart-line mr-2"></i>
+                        Balance
+                    </a>
+
+                    <a class="navbar-item has-text-white">
+                        <i class="fas fa-tag mr-2"></i>
+                        Categorías
+                    </a>
+
+                    <a class="navbar-item has-text-white">
+                        <i class="fas fa-chart-pie mr-2"></i>
+                        Reportes
+                    </a>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+
+    <section class="section mt-5">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-one-quarter is-light">
+                    <div class="tile is-ancestor">
+                        <div class="tile is-vertical">
+                            <div class="tile">
+                                <h2 class="title is-2">Balance</h2>
+                                <div class="columns">
+                                    <div class="column">
+                                        <p>Ganancias</p>
+                                        <p>Gastos</p>
+                                        <p>Total</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tile">
+                                <h3 class="title is-3">Filtros</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-two-thirds is-white-ter">
+                    <div class="columns">
+                        <div class="column">
+                            <h3 class="title is-3">Operaciones</h3>
+                        </div>
+                        <div class="column">
+                            <button class="button is-primary">
+                                + Nueva Operación
+                            </button>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="imgs/wallet.svg">
+                        <h4 class="title is-4 has-text-centered">Sin Resultados</h4>
+                        <p class="has-text-centered">Cambia los filtros o agrega operaciones</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
